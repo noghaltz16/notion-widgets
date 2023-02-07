@@ -108,6 +108,13 @@
 
     <div class="wrapper">
 
+       <!-- Start blog Icon -->
+      <div id="blog" onclick="navigate(this.id)" class="social blog">
+        <span class="icon"><i class="fa-solid fa-blog"></i></span>
+      </div>
+      <!-- End blog Icon -->
+      
+      
       <!-- Start instagram Icon -->
       <div id="instagram" onclick="navigate(this.id)" class="social instagram">
         <span class="icon"><i class="fab fa-instagram"></i></span>
@@ -126,6 +133,12 @@
       </div>
       <!-- End twitter Icon -->
 
+      
+      <!-- Start tiktok Icon -->
+      <div id="tiktok" onclick="navigate(this.id)" class="social tiktok">
+        <span class="icon"><i class="fab fa-tiktok"></i></span>
+      </div>
+      <!-- End tiktok Icon -->
 
     </div>
 
@@ -138,7 +151,7 @@
         //if you want the URL to open in the same window use '_parent'  instead of '_blank'
 
         if (id === "blog")
-          window.open("https://blog.shorouk.dev", '_blank').focus(); //Add the url to your blog
+          window.open("https://fried.com/", '_blank').focus(); //Add the url to your blog
 
         else if (id === "email") {
           window.open("mailto:someone@yoursite.com", '_blank').focus(); //Add your email after "mailto:""
@@ -160,7 +173,7 @@
           window.open("https://www.reddit.com/", '_blank').focus(); //Add the url to your reddit account
         }
         else if (id === "tiktok") {
-          window.open("https://www.tiktok.com/", '_blank').focus(); //Add the url to your tiktok account
+          window.open("https://www.tiktok.com/@jordanfriedofficial?lang=en", '_blank').focus(); //Add the url to your tiktok account
         }
         else if (id === "youtube") {
           window.open("https://www.youtube.com/", '_blank').focus(); //Add the url to your youtube account
